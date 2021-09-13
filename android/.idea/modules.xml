@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/317966351/android.barcode_scan.iml" filepath="$PROJECT_DIR$/.idea/modules/317966351/android.barcode_scan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1791990079/android.cloud_firestore.iml" filepath="$PROJECT_DIR$/.idea/modules/1791990079/android.cloud_firestore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1301382655/android.cloud_firestore_web.iml" filepath="$PROJECT_DIR$/.idea/modules/1301382655/android.cloud_firestore_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-33388867/android.firebase_core.iml" filepath="$PROJECT_DIR$/.idea/modules/-33388867/android.firebase_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1961733066/android.firebase_core_web.iml" filepath="$PROJECT_DIR$/.idea/modules/-1961733066/android.firebase_core_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1378663343/android.native_device_orientation.iml" filepath="$PROJECT_DIR$/.idea/modules/1378663343/android.native_device_orientation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-413242907/android.path_provider.iml" filepath="$PROJECT_DIR$/.idea/modules/-413242907/android.path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/528858311/android.path_provider_linux.iml" filepath="$PROJECT_DIR$/.idea/modules/528858311/android.path_provider_linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/575265679/android.path_provider_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/575265679/android.path_provider_macos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1578267469/android.path_provider_windows.iml" filepath="$PROJECT_DIR$/.idea/modules/-1578267469/android.path_provider_windows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/198274809/android.qr_mobile_vision.iml" filepath="$PROJECT_DIR$/.idea/modules/198274809/android.qr_mobile_vision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1526031749/android.wakelock.iml" filepath="$PROJECT_DIR$/.idea/modules/1526031749/android.wakelock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-330149543/android.wakelock_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/-330149543/android.wakelock_macos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/368333755/android.wakelock_web.iml" filepath="$PROJECT_DIR$/.idea/modules/368333755/android.wakelock_web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389637669927",
+    "project_id": "qrscanner-bafc9",
+    "storage_bucket": "qrscanner-bafc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389637669927:android:5d4692d9f63a88f92a3a02",
+        "android_client_info": {
+          "package_name": "com.envision.qrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389637669927-p4agbu8lk7cmk2j5rshccj7dgo90fbhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbWd3SqnAeP9n9nk7xre6favf283Re0-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389637669927-p4agbu8lk7cmk2j5rshccj7dgo90fbhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

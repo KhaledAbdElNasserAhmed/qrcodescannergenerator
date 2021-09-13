@@ -1,0 +1,4 @@
+#Mon Jun 21 23:48:50 EET 2021
+base.0=C\:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

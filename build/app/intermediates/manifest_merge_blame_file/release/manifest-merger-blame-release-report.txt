@@ -1,0 +1,273 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.envision.qrcode"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:barcode_scan] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:11:5-65
+11-->[:barcode_scan] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:11:22-62
+12
+13    <uses-feature
+13-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:35
+14        android:name="android.hardware.camera.autofocus"
+14-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:10:9-57
+15        android:required="true" />
+15-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:11:9-32
+16    <uses-feature
+16-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:12:5-14:36
+17        android:name="android.hardware.camera.front"
+17-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:13:9-53
+18        android:required="false" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+18-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:14:9-33
+19    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:13:5-79
+20-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:13:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:14:5-67
+21-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:25:5-68
+22-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:25:22-65
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+24    <!--
+25 io.flutter.app.FlutterApplication is an android.app.Application that
+26         calls FlutterMain.startInitialization(this); in its onCreate method.
+27         In most cases you can leave this as-is, but you if you want to provide
+28         additional functionality it is fine to subclass or reimplement
+29         FlutterApplication and put your custom class here.
+30    -->
+31    <application
+31-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:8:5-29:19
+32        android:name="io.flutter.app.FlutterApplication"
+32-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:9:9-57
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.2.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6dbdc64c8ccb4f63100365568439ad3b\core-1.2.0\AndroidManifest.xml:24:18-86
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:11:9-43
+35        android:label="qrcode" >
+35-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:10:9-31
+36        <activity
+36-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:12:9-23:20
+37            android:name="com.example.qrcode.MainActivity"
+37-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:13:13-41
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+38-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:16:13-163
+39            android:hardwareAccelerated="true"
+39-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:17:13-47
+40            android:launchMode="singleTop"
+40-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:14:13-43
+41            android:theme="@style/LaunchTheme"
+41-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:15:13-47
+42            android:windowSoftInputMode="adjustResize" >
+42-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:18:13-55
+43            <intent-filter>
+43-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:19:13-22:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:20:17-68
+44-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:20:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:21:17-76
+46-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:21:27-74
+47            </intent-filter>
+48        </activity>
+49        <!--
+50             Don't delete the meta-data below.
+51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+52        -->
+53        <meta-data
+53-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:26:9-28:33
+54            android:name="flutterEmbedding"
+54-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:27:13-44
+55            android:value="2" />
+55-->C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\android\app\src\main\AndroidManifest.xml:28:13-30
+56
+57        <activity android:name="de.mintware.barcode_scan.BarcodeScannerActivity" />
+57-->[:barcode_scan] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:14:9-84
+57-->[:barcode_scan] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\barcode_scan\intermediates\library_manifest\release\AndroidManifest.xml:14:19-81
+58
+59        <service
+59-->[:cloud_firestore] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+60            android:name="com.google.firebase.components.ComponentDiscoveryService"
+60-->[:cloud_firestore] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+61            android:directBootAware="true"
+61-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+62            android:exported="false" >
+62-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:19:13-37
+63            <meta-data
+63-->[:cloud_firestore] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+64-->[:cloud_firestore] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[:cloud_firestore] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+66            <meta-data
+66-->[:firebase_core] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+67-->[:firebase_core] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:firebase_core] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:20:13-22:85
+70                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+70-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:21:17-111
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-firestore:23.0.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\246db5658a2b2ce5511044bd0c826c0e\jetified-firebase-firestore-23.0.1\AndroidManifest.xml:22:17-82
+72            <meta-data
+72-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\2dc57b33e563a3c6371a77383a60d12e\play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+73                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+73-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\2dc57b33e563a3c6371a77383a60d12e\play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\2dc57b33e563a3c6371a77383a60d12e\play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\5cbb32e25a3d188c98635ede235b852b\firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+76                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+76-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\5cbb32e25a3d188c98635ede235b852b\firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\5cbb32e25a3d188c98635ede235b852b\firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+78        </service>
+79
+80        <meta-data
+80-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:17:9-19:39
+81            android:name="com.google.android.gms.vision.DEPENDENCIES"
+81-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:18:13-70
+82            android:value="barcode" />
+82-->[:qr_mobile_vision] C:\Users\Ahmed\AndroidStudioProjects\QR-CODE-Scanner-Generator\build\qr_mobile_vision\intermediates\library_manifest\release\AndroidManifest.xml:19:13-36
+83
+84        <receiver
+84-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+85            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+85-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+87            android:exported="false" >
+87-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+88        </receiver>
+89
+90        <service
+90-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+91            android:name="com.google.android.gms.measurement.AppMeasurementService"
+91-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+92            android:enabled="true"
+92-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+93            android:exported="false" />
+93-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+94        <service
+94-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+95            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+95-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+96            android:enabled="true"
+96-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+98            android:permission="android.permission.BIND_JOB_SERVICE" />
+98-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\c938f034394d97d39cf9ef20da0f63b9\play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+99        <service
+99-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6a5c7657add80a12eb2e8f7fda1411c1\play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:9:9-15:19
+100            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+100-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6a5c7657add80a12eb2e8f7fda1411c1\play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:10:13-91
+101            android:directBootAware="true"
+101-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:17:13-43
+102            android:exported="false" >
+102-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6a5c7657add80a12eb2e8f7fda1411c1\play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:11:13-37
+103            <meta-data
+103-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6a5c7657add80a12eb2e8f7fda1411c1\play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:12:13-14:85
+104                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+104-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6a5c7657add80a12eb2e8f7fda1411c1\play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:13:17-120
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\6a5c7657add80a12eb2e8f7fda1411c1\play-services-mlkit-barcode-scanning-16.1.4\AndroidManifest.xml:14:17-82
+106            <meta-data
+106-->[com.google.mlkit:vision-common:16.3.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\37c16d55a3dab62640b8b2dbb8040e01\vision-common-16.3.0\AndroidManifest.xml:12:13-14:85
+107                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+107-->[com.google.mlkit:vision-common:16.3.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\37c16d55a3dab62640b8b2dbb8040e01\vision-common-16.3.0\AndroidManifest.xml:13:17-124
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.mlkit:vision-common:16.3.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\37c16d55a3dab62640b8b2dbb8040e01\vision-common-16.3.0\AndroidManifest.xml:14:17-82
+109            <meta-data
+109-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:20:13-22:85
+110                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+110-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:21:17-120
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:22:17-82
+112        </service>
+113
+114        <provider
+114-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:9:9-13:38
+115            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+115-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:10:13-78
+116            android:authorities="com.envision.qrcode.mlkitinitprovider"
+116-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:11:13-69
+117            android:exported="false"
+117-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:12:13-37
+118            android:initOrder="99" />
+118-->[com.google.mlkit:common:17.1.1] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\06cff78d2d60fe786304a2c2f55b449f\common-17.1.1\AndroidManifest.xml:13:13-35
+119
+120        <activity
+120-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\cf9dca74f0e3ff214f18ec822704dbcd\play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+121-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\cf9dca74f0e3ff214f18ec822704dbcd\play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\cf9dca74f0e3ff214f18ec822704dbcd\play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+123-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\cf9dca74f0e3ff214f18ec822704dbcd\play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+127            android:authorities="com.envision.qrcode.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+128            android:directBootAware="true"
+128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+129            android:exported="false"
+129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+130            android:initOrder="100" />
+130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\145992557d68223ff7fc044f516624a1\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+131
+132        <meta-data
+132-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\27f91802b4e52ff2c02a83fda6f295b2\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+133            android:name="com.google.android.gms.version"
+133-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\27f91802b4e52ff2c02a83fda6f295b2\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+134            android:value="@integer/google_play_services_version" />
+134-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\27f91802b4e52ff2c02a83fda6f295b2\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+135
+136        <service
+136-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\3645e573355dbe0c7229d27961660531\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:29:9-35:19
+137            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+137-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\3645e573355dbe0c7229d27961660531\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:30:13-103
+138            android:exported="false" >
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\3645e573355dbe0c7229d27961660531\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:31:13-37
+139            <meta-data
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\3645e573355dbe0c7229d27961660531\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:32:13-34:39
+140                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\3645e573355dbe0c7229d27961660531\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:33:17-94
+141                android:value="cct" />
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.2] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\3645e573355dbe0c7229d27961660531\jetified-transport-backend-cct-2.3.2\AndroidManifest.xml:34:17-36
+142        </service>
+143        <service
+143-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+144            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+144-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+145            android:exported="false"
+145-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" >
+146-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+147        </service>
+148
+149        <receiver
+149-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+150            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+150-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+151            android:exported="false" />
+151-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Ahmed\.gradle\caches\transforms-2\files-2.1\b1ef2e760ea9536975cfce11960ef316\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+152    </application>
+153
+154</manifest>

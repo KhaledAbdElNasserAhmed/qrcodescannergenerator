@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\44d5cb50ed9f7b9bbb7c64a61e8802d5\\material-1.0.0\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\791d443427ff522825d69efa109b88f8\\appcompat-1.0.2\\res\\color-v23\\abc_tint_edittext.xml"
+    }
+]

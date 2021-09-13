@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\44d5cb50ed9f7b9bbb7c64a61e8802d5\\material-1.0.0\\res\\interpolator\\mtrl_linear.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\interpolator\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\44d5cb50ed9f7b9bbb7c64a61e8802d5\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\interpolator\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\44d5cb50ed9f7b9bbb7c64a61e8802d5\\material-1.0.0\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\AndroidStudioProjects\\QR-CODE-Scanner-Generator\\build\\barcode_scan\\intermediates\\res\\merged\\release\\interpolator\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Ahmed\\.gradle\\caches\\transforms-2\\files-2.1\\44d5cb50ed9f7b9bbb7c64a61e8802d5\\material-1.0.0\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
+    }
+]
